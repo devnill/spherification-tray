@@ -1,4 +1,4 @@
-resolution=80;
+resolution=72;
 hole_r=2.5;
 wall_thickness=1;
 funnel_h=30;
