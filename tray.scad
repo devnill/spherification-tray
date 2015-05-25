@@ -1,3 +1,4 @@
+resolution=80;
 hole_r=2.5;
 wall_thickness=1;
 funnel_h=30;
@@ -9,6 +10,8 @@ box_cols=5;
 box_x=90;
 box_y=185;
 tray_h=30;
+
+$fn=resolution;
 
 module spout(){
     cylinder(h = funnel_h, r1 = hole_r+(wall_thickness*2), r2 = funnel_r);
