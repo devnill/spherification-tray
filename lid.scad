@@ -16,20 +16,6 @@ module lid(){
                     if(row % 2 == 0)translate([col*(funnel_id-wall_thickness*2),0, 0]){
                         lid_section();
                     }    
-                    else translate([col*(funnel_id)+(funnel_r-wall_thickness*2),0, 0]){
-                        lid_section();
-                    }     
-                }
-            }
-        }
-}
-module lid(){
-        for ( row = [0 : box_rows-1] ){
-            translate([0,row*(funnel_r-wall_thickness),0]){
-                for ( col = [0 : box_cols-1] ){
-                    if(row % 2 == 0)translate([col*(funnel_id-wall_thickness*2),0, 0]){
-                        lid_section();
-                    }    
                    else translate([col*(funnel_id-wall_thickness*2)+funnel_r-wall_thickness,0, 0]){
                         lid_section();
                     }   
