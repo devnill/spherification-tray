@@ -1,17 +1,21 @@
+
+//general params
 resolution=72;
-hole_r=2.5;
 wall_thickness=1.5;
-funnel_h=30;
-funnel_r=10;
+box_rows=6;
+box_cols=5;
+
+//funnel params
+hole_r=1.5;
+funnel_h=15;
+funnel_r=7.5;
 funnel_id=funnel_r*2;
 funnel_od= funnel_id+(wall_thickness*2);
 
-box_rows=6;
-box_cols=5;
-box_x=90;
-box_y=185;
+//tray (top half of assembly) params
 tray_h=10;
 
+//lid params
 lid_tolerance=.5;
 lid_inset_r=funnel_r-(lid_tolerance/2);
 lid_inset_h=3;
