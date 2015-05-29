@@ -2,7 +2,7 @@ include <parameters.scad>;
 
 
 module lid_section(){
-    cylinder(h=lid_inset_h,r=lid_inset_r);
+    cylinder(h=lid_inset_h,r=lid_inset_r);//inset
     
     translate([0,0,lid_cap_h]){
         cylinder(h=lid_cap_h,r=tray_section_r+wall_thickness);
