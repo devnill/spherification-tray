@@ -2,7 +2,7 @@ resolution=45;
 //resolution=10;
 
 hole_r=1.5;
-wall_thickness=1.5;
+wall_thickness=2.5;
 funnel_h=30;
 funnel_r=2.5;
 funnel_id=funnel_r*2;
@@ -14,7 +14,7 @@ box_cols=5;
 
 section_connector_h=15;
 
-tray_h=5;
+tray_h=13;
 tray_section_r=10;
 tray_section_id=tray_section_r*2;
 

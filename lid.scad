@@ -1,6 +1,5 @@
 include <parameters.scad>;
 
-
 module lid_section(){
     cylinder(h=lid_inset_h,r=lid_inset_r);//inset
     
@@ -32,5 +31,5 @@ module lid_bore(){
 
 difference(){
     lid();
-    lid_bore();
+    translate([7,0,0])lid_bore();
 }
